@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Pelican configuration file."""
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
@@ -8,9 +9,12 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'
+
+# Theme
+THEME = 'themes/jlc'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
