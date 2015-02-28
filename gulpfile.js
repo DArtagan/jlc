@@ -13,8 +13,6 @@ var manifest = require('asset-builder')('themes/jlc/assets/manifest.json');
 // `path` - Paths to base asset directories. With trailing slashes.
 // - `path.source` - Path to the source files. Default: `assets/`
 // - `path.dist` - Path to the build directory. Default: `dist/`
-var path.source = 'themse/jlc/assets/';
-var path.dist = 'themes/jlc/dist/';
 var path = manifest.paths;
 
 // `config` - Store arbitrary configuration values here.

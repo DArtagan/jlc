@@ -1,3 +1,4 @@
-themes/jlc/bower_components
+dist
+bower_components
 node_modules
 npm-debug.log
