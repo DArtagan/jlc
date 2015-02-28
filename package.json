@@ -4,6 +4,32 @@
   "author": "William Weiskopf",
   "description": "JLC Consulting's webiste.",
   "license": "MIT",
-  "scripts": {
+  "scripts": {},
+  "devDependencies": {
+    "asset-builder": "^1.0.1",
+    "browser-sync": "^2.2.1",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-changed": "^1.1.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-flatten": "0.0.4",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.1",
+    "gulp-pleeease": "^1.2.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-rename": "^1.2.0",
+    "gulp-rev": "^3.0.1",
+    "gulp-sass": "^1.3.3",
+    "gulp-sourcemaps": "^1.5.0",
+    "gulp-uglify": "^1.1.0",
+    "imagemin-pngcrush": "^4.0.0",
+    "jshint-stylish": "^1.0.1",
+    "lazypipe": "^0.2.2",
+    "merge-stream": "^0.1.7",
+    "traverse": "^0.6.6",
+    "wiredep": "^2.2.2",
+    "yargs": "^3.4.4"
   }
 }
