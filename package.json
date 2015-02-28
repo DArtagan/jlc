@@ -1,0 +1,9 @@
+{
+  "name": "jlc",
+  "version": "1.0.0",
+  "author": "William Weiskopf",
+  "description": "JLC Consulting's webiste.",
+  "license": "MIT",
+  "scripts": {
+  }
+}
