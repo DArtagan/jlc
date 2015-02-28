@@ -6,6 +6,7 @@ var browserSync = require('browser-sync');
 var gulp        = require('gulp');
 var lazypipe    = require('lazypipe');
 var merge       = require('merge-stream');
+var run         = require('gulp-run');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('themes/jlc/assets/manifest.json');
@@ -137,6 +138,11 @@ var writeToManifest = function(directory) {
 // ## Gulp tasks
 // Run `gulp -T` for a task summary
 
+// ### Pelican content
+gulp.task('pelican', function() {
+  run('pelican content').exec();
+});
+
 // ### Styles
 // `gulp styles` - Compiles, combines, and optimizes Bower CSS and project CSS.
 // By default this task will only log a warning if a precompiler error is
@@ -217,16 +223,17 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 // See: http://www.browsersync.io
 gulp.task('watch', function() {
   browserSync({
-    proxy: config.devUrl,
+    server: {
+      baseDir: "./output"
+    },
+    port: 8000
   });
   gulp.watch([path.source + 'styles/**/*'], ['styles']);
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
   gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
   gulp.watch(['bower.json'], ['wiredep']);
-  gulp.watch('**/*.php', function() {
-    browserSync.reload();
-  });
+  gulp.watch("content/**/*", ['pelican', browserSync.reload]);
 });
 
 // ### Build
