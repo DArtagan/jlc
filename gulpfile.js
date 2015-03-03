@@ -6,6 +6,7 @@ var browserSync = require('browser-sync');
 var gulp        = require('gulp');
 var lazypipe    = require('lazypipe');
 var merge       = require('merge-stream');
+var exec        = require('child_process').exec;
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('themes/jlc/assets/manifest.json');
