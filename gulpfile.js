@@ -6,7 +6,6 @@ var browserSync = require('browser-sync');
 var gulp        = require('gulp');
 var lazypipe    = require('lazypipe');
 var merge       = require('merge-stream');
-var run         = require('gulp-run');
 
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('themes/jlc/assets/manifest.json');
@@ -143,8 +142,12 @@ var writeToManifest = function(directory) {
 // Run `gulp -T` for a task summary
 
 // ### Pelican content
-gulp.task('pelican', function() {
-  run('pelican content').exec();
+gulp.task('pelican', function(cb) {
+  exec('pelican content', function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
 });
 
 // ### Styles
