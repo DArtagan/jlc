@@ -21,6 +21,6 @@
   },
   "paths": {
     "source": "theme/assets/",
-    "dist": "dist/"
+    "dist": "output/assets/"
   }
 }
