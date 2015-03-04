@@ -12,11 +12,7 @@ var exec        = require('child_process').exec;
 var manifest = require('asset-builder')('themes/jlc/assets/manifest.json');
 
 // `path` - Paths to base asset directories. With trailing slashes.
-// - `path.source` - Path to the source files. Default: `assets/`
-// - `path.dist` - Path to the build directory. Default: `dist/`
 var path = manifest.paths;
-path.source = 'themes/jlc/assets/';
-//path.dist = 'dist2/';
 
 // `config` - Store arbitrary configuration values here.
 var config = manifest.config || {};

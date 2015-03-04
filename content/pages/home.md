@@ -2,7 +2,7 @@ Title: Homepage
 Date: 2015-02-27 10:42
 save_as: index.html
 
-Welcome to my website.  I am a licensed psychotherapist, with aprivate practice in Wheat Ridge, Colorado.  I work primarily with adults.  If you are struggling with anxiety, depressionn, addiction, trauma, PTSD, sexual or physical abuse, relationship issues, grief and loss, you have come to the right place.  As a therapist, I work top empower you to address your issues and make the necessary changes.  Together, we focus our awareness on the things that are not working for you at this time in your life.  Therapy is a process of exploration and problem soving to create the desired change.  
+Welcome to my website.  I am a licensed psychotherapist, with a private practice in Wheat Ridge, Colorado.  I work primarily with adults.  If you are struggling with anxiety, depressionn, addiction, trauma, PTSD, sexual or physical abuse, relationship issues, grief and loss, you have come to the right place.  As a therapist, I work top empower you to address your issues and make the necessary changes.  Together, we focus our awareness on the things that are not working for you at this time in your life.  Therapy is a process of exploration and problem soving to create the desired change.  
 
 My interpersonal style is based on creating an open, safe space for clients inner exploration and growth.  I provide a supportive and respectful atmosphere for you to examine your thougts, feelings, beliefs and behaviours by incorporating various professional techniques.  You and I will choose the approach that best fits your needs.
 
