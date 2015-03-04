@@ -52,8 +52,12 @@
           {% endif %}
         {% endif %}
         </ul></nav><!-- /#menu -->
-        {% block content %}
-        {% endblock %}
+        <main class="container" role="main">
+        <div class="row">
+          {% block content %}
+          {% endblock %}
+        </div>
+        </main>
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>,

@@ -236,6 +236,7 @@ gulp.task('watch', function() {
   gulp.watch([path.source + 'images/**/*'], ['images']);
   gulp.watch(['bower.json'], ['wiredep']);
   gulp.watch("content/**/*", ['pelican', browserSync.reload]);
+  gulp.watch("theme/templates/**/*", ['pelican', browserSync.reload]);
 });
 
 // ### Build

@@ -16,13 +16,18 @@ I hold a Master's degree in Community Counseling from the University of Northern
 
 Janet L. Couts, L.P.C., C.A.C. III
 
-    5810 West 38th Avenue
-    Suite 8
+<address>
+    5810 West 38th Avenue<br />
+    Suite 8<br />
     Wheat Ridge, 80212
+</address>
 
-    phone: 303.359.8036
-    fax: 303.456.9284
+<address>
+    5810 West 38th Avenue<br />
+    phone: 303.359.8036<br />
+    fax: 303.456.9284<br />
     email: couttsj@live.com
+</address>
 
 Hours: Monday through Thursday 11:00am - 6:00pm
 
