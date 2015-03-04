@@ -19,11 +19,8 @@
       "bower": ["modernizr"]
     }
   },
-  "config": {
-    "devUrl": "jlc.dev"
-  },
   "paths": {
-    "source": "themes/jlc/assets/",
+    "source": "theme/assets/",
     "dist": "dist/"
   }
 }

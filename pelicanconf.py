@@ -14,7 +14,7 @@ TIMEZONE = 'America/Denver'
 DEFAULT_LANG = 'en'
 
 # Theme
-THEME = 'themes/jlc'
+THEME = 'theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

@@ -9,7 +9,7 @@ var merge       = require('merge-stream');
 var exec        = require('child_process').exec;
 
 // See https://github.com/austinpray/asset-builder
-var manifest = require('asset-builder')('themes/jlc/assets/manifest.json');
+var manifest = require('asset-builder')('assets.json');
 
 // `path` - Paths to base asset directories. With trailing slashes.
 var path = manifest.paths;
@@ -121,11 +121,9 @@ var jsTasks = function(filename) {
 // If there are any revved files then write them to the rev manifest.
 // See https://github.com/sindresorhus/gulp-rev
 var writeToManifest = function(directory) {
-  process.stdout.write('Writetomanifest(' + directory + ').');
   return lazypipe()
     .pipe(gulp.dest, path.dist + directory)
     .pipe(function() {
-      process.stdout.write('Writecss.');
       return $.if('**/*.{js,css}', browserSync.reload({stream:true}));
     })
     .pipe($.rev.manifest, revManifest, {
@@ -155,7 +153,6 @@ gulp.task('styles', ['wiredep'], function() {
   var merged = merge();
   manifest.forEachDependency('css', function(dep) {
     var cssTasksInstance = cssTasks(dep.name);
-    process.stdout.write(dep.name);
     if (!enabled.failStyleTask) {
       cssTasksInstance.on('error', function(err) {
         console.error(err.message);
