@@ -1,4 +1,5 @@
-dist
+.env
+__pycache__
 cache
 bower_components
 node_modules
