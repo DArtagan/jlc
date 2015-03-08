@@ -163,7 +163,7 @@ gulp.task('styles', ['wiredep'], function() {
       .pipe(cssTasksInstance));
   });
   return merged
-    .pipe(writeToManifest(''));
+    .pipe(writeToManifest('styles'));
 });
 
 // ### Scripts
