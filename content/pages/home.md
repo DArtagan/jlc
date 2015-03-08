@@ -2,15 +2,40 @@ Title: Homepage
 Date: 2015-02-27 10:42
 save_as: index.html
 
+<div class="banner" data-parallax="scroll" data-image-src="/assets/images/fall_2.jpg">
+<div class="quote">
+  <blockquote><h2>When you can't see the forest for the trees</h2> <p>-- You are so caught up with the details of a problem you are unable see the situation as a whole.</p></blockquote>
+</div>
+</div>
+
+<div class="container" markdown="1">
+<div class="section_light" markdown="1">
+
 Welcome to my website.  I am a licensed psychotherapist, with a private practice in Wheat Ridge, Colorado.  I work primarily with adults.  If you are struggling with anxiety, depressionn, addiction, trauma, PTSD, sexual or physical abuse, relationship issues, grief and loss, you have come to the right place.  As a therapist, I work top empower you to address your issues and make the necessary changes.  Together, we focus our awareness on the things that are not working for you at this time in your life.  Therapy is a process of exploration and problem soving to create the desired change.  
 
 My interpersonal style is based on creating an open, safe space for clients inner exploration and growth.  I provide a supportive and respectful atmosphere for you to examine your thougts, feelings, beliefs and behaviours by incorporating various professional techniques.  You and I will choose the approach that best fits your needs.
 
+</div>
+</div>
+
+<div class="quote">
+<blockquote class="blockquote-reverse">Happiness is when what you think, what you say, and what you do are in harmony. <footer>Mohandas Gandhi</footer></blockquote>
+</div>
+
+<div class="section_light" markdown="1" data-parallax="scroll" data-image-src="/assets/images/fall_1.jpg">
+
 ## About
 
-I am a licensed professional conselor and have been working in the mental health field for over 10 years.  My approach is grounded in Rational Emotive Behavioural Theory wich seeks to identify and eliminate irrational beliefs that may cause maladaptive behavior.  I also integrate EMDR (Eye Movement Desensitization and Reprocessing) into my practice along with an array of other eclectic theories.  
+I am a licensed professional conselor and have been working in the mental health field for over 10 years.  My approach is grounded in Rational Emotive Behavioural Theory which seeks to identify and eliminate irrational beliefs that may cause maladaptive behavior.  I also integrate EMDR (Eye Movement Desensitization and Reprocessing) into my practice along with an array of other eclectic theories.  
 
 I hold a Master's degree in Community Counseling from the University of Northern Colorado.  I am a Certified Addictions Counselor level three, and EMDR trained, level two.  
+</div>
+
+<div class="quote">
+<blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote
+</div>
+
+<div class="section_light" markdown="1">
 
 ## Contact
 
@@ -37,3 +62,5 @@ Insurances accepted: Cigna/AETNA/Blue Cross Blue Shield/Cofinity/Cover Colorado/
 
 I also work with insurances as an out-of-network provider.
 Individuals are requested to pay at the time services are rendered and a receipt will be offered so individual may request reimbursement from their insurance company.
+
+</div>

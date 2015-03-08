@@ -163,7 +163,7 @@ gulp.task('styles', ['wiredep'], function() {
       .pipe(cssTasksInstance));
   });
   return merged
-    .pipe(writeToManifest('styles'));
+    .pipe(writeToManifest(''));
 });
 
 // ### Scripts
@@ -230,7 +230,7 @@ gulp.task('watch', function() {
     },
     port: 8000
   });
-  gulp.watch([path.source + 'styles/**/*'], ['styles']);
+  gulp.watch([path.source + '/**/*.{less,scss}'], ['styles']);
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
   gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
@@ -242,7 +242,7 @@ gulp.task('watch', function() {
 // ### Build
 // `gulp build` - Run all the build tasks but don't clean up beforehand.
 // Generally you should be running `gulp` instead of `gulp build`.
-gulp.task('build', ['styles', 'scripts', 'fonts', 'images']);
+gulp.task('build', ['styles', 'scripts', 'fonts', 'images', 'pelican']);
 
 // ### Wiredep
 // `gulp wiredep` - Automatically inject Less and Sass Bower dependencies. See

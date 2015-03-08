@@ -3,9 +3,50 @@
 // endbower
 
 body {
+    
+}
 
+header {
+    text-align: center;
+
+    h1 {
+        margin: 80px auto 80px;
+    }
 }
 
 main {
-    
+    #index & h1 {
+        display: none;
+    }
+
+    .section_light {
+        background: rgba(255,255,255,0.8);
+        margin: 40px auto;
+        @include make-xs-column(12);
+    }
+
+    .section_dark {
+        margin: 40px auto;
+        @include make-xs-column(12);
+    }
+
+    .banner {
+        min-height: 400px;
+
+        blockquote {
+            margin: 0px auto;
+            background: rgba(255,255,255,0.8);
+            font-size: 1.2em !important;
+        }
+    }
+
+    .quote {
+        padding-top: 40px;
+        blockquote {
+        }
+    }
+}
+
+.parallax-mirror {
+
 }
