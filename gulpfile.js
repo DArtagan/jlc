@@ -251,10 +251,10 @@ gulp.task('wiredep', function() {
   var wiredep = require('wiredep').stream;
   return gulp.src(project.css)
     .pipe(wiredep())
-    .pipe($.changed(path.source + 'styles', {
+    .pipe($.changed(path.source, {
       hasChanged: $.changed.compareSha1Digest
     }))
-    .pipe(gulp.dest(path.source + 'styles'));
+    .pipe(gulp.dest(path.source));
 });
 
 // ### Gulp
