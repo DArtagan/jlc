@@ -20,7 +20,7 @@ main {
     }
 
     .section_light {
-        background: rgba(255,255,255,0.8);
+        //background: rgba(255,255,255,0.8);
         margin: 40px auto;
         @include make-xs-column(12);
     }
@@ -45,8 +45,19 @@ main {
         blockquote {
         }
     }
+
+    #contact-map {
+        height: 400px;
+        width: 100%;
+    }
+
+    address {
+        margin: 30px;
+    }
 }
 
 .parallax-mirror {
-
+    [src~="/assets/images/fall_1.jpg"] {
+        opacity: 0.2;
+    }
 }

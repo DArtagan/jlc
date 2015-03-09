@@ -22,17 +22,26 @@ My interpersonal style is based on creating an open, safe space for clients inne
 <blockquote class="blockquote-reverse">Happiness is when what you think, what you say, and what you do are in harmony. <footer>Mohandas Gandhi</footer></blockquote>
 </div>
 
-<div class="section_light" markdown="1" data-parallax="scroll" data-image-src="/assets/images/fall_1.jpg">
+<div markdown="1" data-parallax="scroll" data-image-src="/assets/images/fall_1.jpg">
+<div class="container" markdown="1">
+<div class="section_light" markdown="1">
 
 ## About
 
-I am a licensed professional conselor and have been working in the mental health field for over 10 years.  My approach is grounded in Rational Emotive Behavioural Theory which seeks to identify and eliminate irrational beliefs that may cause maladaptive behavior.  I also integrate EMDR (Eye Movement Desensitization and Reprocessing) into my practice along with an array of other eclectic theories.  
+I am a licensed professional counselor and have been working in the mental health field for over 10 years.  My approach is grounded in Rational Emotive Behavioural Theory which seeks to identify and eliminate irrational beliefs that may cause maladaptive behavior.  I also integrate EMDR (Eye Movement Desensitization and Reprocessing) into my practice along with an array of other eclectic theories.  
 
 I hold a Master's degree in Community Counseling from the University of Northern Colorado.  I am a Certified Addictions Counselor level three, and EMDR trained, level two.  
+
+</div>
+</div>
 </div>
 
 <div class="quote">
 <blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote
+</div>
+
+<div class="container-fullwidth">
+  <div id="contact-map" class="col-md-6"></div>
 </div>
 
 <div class="section_light" markdown="1">
@@ -48,15 +57,16 @@ Janet L. Couts, L.P.C., C.A.C. III
 </address>
 
 <address>
-    5810 West 38th Avenue<br />
-    phone: 303.359.8036<br />
-    fax: 303.456.9284<br />
-    email: couttsj@live.com
+    Phone: 303.359.8036<br />
+    Fax: 303.456.9284<br />
+    Email: couttsj@live.com
 </address>
 
 Hours: Monday through Thursday 11:00am - 6:00pm
 
 Fees: 100.00 a session (50 minutes)
+
+<br>
 
 Insurances accepted: Cigna/AETNA/Blue Cross Blue Shield/Cofinity/Cover Colorado/Beech Street/Corp Health/Anthem Blue Cross/Victims Comp/Mines and Associates
 
@@ -64,3 +74,29 @@ I also work with insurances as an out-of-network provider.
 Individuals are requested to pay at the time services are rendered and a receipt will be offered so individual may request reimbursement from their insurance company.
 
 </div>
+
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>	
+  function init_map() {
+    var var_location = new google.maps.LatLng(39.76898,-105.06117);
+
+    var var_mapoptions = {
+        center: var_location,
+        zoom: 14 
+    };
+
+    var var_marker = new google.maps.Marker({
+        position: var_location,
+        map: var_map,
+        title:"JLC Counseling"});
+
+    var var_map = new google.maps.Map(document.getElementById("contact-map"),
+        var_mapoptions);
+
+    var_marker.setMap(var_map);	
+
+  }
+
+  google.maps.event.addDomListener(window, 'load', init_map);
+</script>
