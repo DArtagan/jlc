@@ -44,6 +44,7 @@ I hold a Master's degree in Community Counseling from the University of Northern
   <div id="contact-map" class="col-md-6"></div>
 </div>
 
+<div class="container" markdown="1">
 <div class="section_light" markdown="1">
 
 ## Contact
@@ -73,6 +74,7 @@ Insurances accepted: Cigna/AETNA/Blue Cross Blue Shield/Cofinity/Cover Colorado/
 I also work with insurances as an out-of-network provider.
 Individuals are requested to pay at the time services are rendered and a receipt will be offered so individual may request reimbursement from their insurance company.
 
+</div>
 </div>
 
 
