@@ -78,7 +78,7 @@ Individuals are requested to pay at the time services are rendered and a receipt
 </div>
 
 
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="//maps.google.com/maps/api/js?sensor=false"></script>
 <script>	
   function init_map() {
     var var_location = new google.maps.LatLng(39.76898,-105.06117);
