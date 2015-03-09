@@ -67,10 +67,7 @@ Hours: Monday through Thursday 11:00am - 6:00pm
 
 Fees: 100.00 a session (50 minutes)
 
-<br>
-
 Insurances accepted: Cigna/AETNA/Blue Cross Blue Shield/Cofinity/Cover Colorado/Beech Street/Corp Health/Anthem Blue Cross/Victims Comp/Mines and Associates.
-
 
 I also work with insurances as an out-of-network provider.
 Individuals are requested to pay at the time services are rendered and a receipt will be offered so individual may request reimbursement from their insurance company.
