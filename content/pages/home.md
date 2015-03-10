@@ -18,11 +18,11 @@ My interpersonal style is based on creating an open, safe space for clients inne
 </div>
 </div>
 
-<div class="quote">
+<div class="quote" data-parallax="scroll" data-image-src="/assets/images/fall_1.jpg">
 <blockquote class="blockquote-reverse">Happiness is when what you think, what you say, and what you do are in harmony. <footer>Mohandas Gandhi</footer></blockquote>
 </div>
 
-<div markdown="1" data-parallax="scroll" data-image-src="/assets/images/fall_1.jpg">
+<div markdown="1">
 <div class="container" markdown="1">
 <div class="section_light" markdown="1">
 
@@ -36,11 +36,12 @@ I hold a Master's degree in Community Counseling from the University of Northern
 </div>
 </div>
 
-<div class="quote">
-<blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote
+<div class="quote" data-parallax="scroll" data-image-src="/assets/images/fall_2.jpg">
+<blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote>
 </div>
 
 <div class="container-fullwidth">
+  <div class="map-overlay" onClick="style.pointerEvents='none'"></div>
   <div id="contact-map" class="col-md-6"></div>
 </div>
 
