@@ -67,7 +67,7 @@ Hours: Monday through Thursday 11:00am - 6:00pm
 
 ## Rate
 
-Fees: 100.00 a session (50 minutes)
+100.00 a session (50 minutes)
 
 Insurances accepted: AETNA, Anthem Blue Cross, Beech Street, Blue Cross and Blue Shield, Cigna Behavioral Health, Cigna EAP, Cigna Health Care, Cigna/MCC, Cofinity, Corp Health, Cover Colorado, Mines and Associates, United Behavioral Health, United Definity Health, United Health Care, Victims Comp.
 
