@@ -11,7 +11,7 @@ save_as: index.html
 <div class="container" markdown="1">
 <div class="section_light" markdown="1">
 
-Welcome to my website.  I am a licensed psychotherapist, with a private practice in Wheat Ridge, Colorado.  I work primarily with adults.  If you are struggling with anxiety, depressionn, addiction, trauma, PTSD, sexual or physical abuse, relationship issues, grief and loss, you have come to the right place.  As a therapist, I work top empower you to address your issues and make the necessary changes.  Together, we focus our awareness on the things that are not working for you at this time in your life.  Therapy is a process of exploration and problem soving to create the desired change.  
+I am a licensed psychotherapist, with a private practice in Wheat Ridge, Colorado.  If you are struggling with anxiety, depressionn, addiction, trauma, PTSD, sexual or physical abuse, relationship issues, grief and loss, you have come to the right place.  As a therapist, I work top empower you to address your issues and make the necessary changes.  Together, we focus our awareness on the things that are not working for you at this time in your life.  Therapy is a process of exploration and problem soving to create the desired change.  
 
 My interpersonal style is based on creating an open, safe space for clients inner exploration and growth.  I provide a supportive and respectful atmosphere for you to examine your thougts, feelings, beliefs and behaviours by incorporating various professional techniques.  You and I will choose the approach that best fits your needs.
 
@@ -60,17 +60,19 @@ Janet L. Couts, L.P.C., C.A.C. III
 
 <address>
     Phone: 303.359.8036<br />
-    Fax: 303.456.9284<br />
     Email: couttsj@live.com
 </address>
 
 Hours: Monday through Thursday 11:00am - 6:00pm
 
+## Rate
+
 Fees: 100.00 a session (50 minutes)
 
-Insurances accepted: Cigna/AETNA/Blue Cross Blue Shield/Cofinity/Cover Colorado/Beech Street/Corp Health/Anthem Blue Cross/Victims Comp/Mines and Associates.
+Insurances accepted: AETNA, Anthem Blue Cross, Beech Street, Blue Cross and Blue Shield, Cigna Behavioral Health, Cigna EAP, Cigna Health Care, Cigna/MCC, Cofinity, Corp Health, Cover Colorado, Mines and Associates, United Behavioral Health, United Definity Health, United Health Care, Victims Comp.
 
 I also work with insurances as an out-of-network provider.
+
 Individuals are requested to pay at the time services are rendered and a receipt will be offered so individual may request reimbursement from their insurance company.
 
 </div>
