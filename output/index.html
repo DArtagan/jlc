@@ -7,9 +7,27 @@
 <script src="assets/scripts/main.js" type="text/javascript"></script>
 <link href="assets/styles/main.css" media="all" type="text/css" rel="stylesheet">    </head>
 
-    <body id="index" class="home">
+    <body id="index" class="home" data-target=".navbar-collapse" data-spy="">
         <header id="banner" class="body">
             <h1><a href="/">JLC Counseling, LLC <strong></strong></a></h1>
+            <nav id="menu" class="navbar navbar-default" data-spy="affix" data-offset-top="200">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div class="collapse navbar-collapse showhide" role="navigation">
+                <ul id="menu-primary-navigation" class="nav navbar-nav">
+                  <li class="menu-home"><a href="index.html" data-target="#index">Home</a></li>
+                  <li class="menu-about"><a href="index.html#about" data-target="#index">About</a></li>
+                  <li class="menu-contact"><a href="index.html#contact" data-target="#contact">Contact</a></li>
+                  <li class="menu-rate"><a href="index.html#rate" data-target="#rate">Rate</a></li>
+                </ul>
+              </div>
+            </nav>
         </header><!-- /#banner -->
         <main class="container-fluid" role="main">
         <div class="row">
@@ -35,7 +53,7 @@
 </div>
 
 <div>
-<p><div class="container" markdown="1">
+<p><div id="about" class="container" markdown="1">
 <div class="section_light" markdown="1"></p>
 <h2>About</h2>
 <p>I am a licensed professional counselor and have been working in the mental health field for over 10 years.  My approach is grounded in Rational Emotive Behavioural Theory which seeks to identify and eliminate irrational beliefs that may cause maladaptive behavior.  I also integrate EMDR (Eye Movement Desensitization and Reprocessing) into my practice along with an array of other eclectic theories.  </p>
@@ -47,7 +65,7 @@
 <blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote>
 </div>
 
-<div class="container">
+<div class="container" id="contact">
 <div class="section_light" markdown="1">
 
 <h2>Contact</h2>
@@ -70,7 +88,7 @@
   <div id="contact-map" class="col-md-6"></div>
 </div>
 
-<div class="container">
+<div class="container" id="rate">
 <div class="section_light" markdown="1">
 
 <h2>Rate</h2>

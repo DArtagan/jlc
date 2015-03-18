@@ -23,7 +23,7 @@ My interpersonal style is based on creating an open, safe space for clients inne
 </div>
 
 <div markdown="1">
-<div class="container" markdown="1">
+<div id="about" class="container" markdown="1">
 <div class="section_light" markdown="1">
 
 ## About
@@ -40,7 +40,7 @@ I hold a Master's degree in Community Counseling from the University of Northern
 <blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote>
 </div>
 
-<div class="container" markdown="1">
+<div id="contact" class="container" markdown="1">
 <div class="section_light" markdown="1">
 
 ## Contact
@@ -68,7 +68,7 @@ Hours: Monday through Thursday 11:00am - 6:00pm
   <div id="contact-map" class="col-md-6"></div>
 </div>
 
-<div class="container" markdown="1">
+<div id="rate" class="container" markdown="1">
 <div class="section_light" markdown="1">
 
 ## Rate

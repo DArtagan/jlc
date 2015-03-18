@@ -3,14 +3,38 @@
 // endbower
 
 body {
-    
+    position: relative;
 }
 
 header {
+    height: 250px;
+    padding-top: 80px;
     text-align: center;
 
     h1 {
-        margin: 80px auto 80px;
+        margin: 0px auto 80px;
+    }
+
+    #menu {
+        border-radius: 0px;
+        position: absolute;
+        width: 100%;
+
+        #menu-primary-navigation {
+            float: none;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .navbar-collapse {
+            text-align: center;
+        }
+
+    }
+    #menu.affix {
+        position: fixed;
+        top: -1px;
+        z-index: 2;
     }
 }
 
@@ -69,4 +93,8 @@ main {
     address {
         margin: 30px;
     }
+}
+
+.parallax-mirror {
+    //margin-top: -71px;
 }
