@@ -47,7 +47,7 @@ Janet L. Couts, L.P.C., C.A.C. III
 
 <address>
     5810 West 38th Avenue<br />
-    Suite 8<br />
+    Suite 8 (upstairs)<br />
     Wheat Ridge, 80212
 </address>
 
