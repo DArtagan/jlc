@@ -3,7 +3,7 @@
 // endbower
 
 body {
-//    position: relative;
+    position: relative;
 }
 
 header {
@@ -61,22 +61,26 @@ main {
         background-size: cover;
     }
 
+    blockquote {
+        background: rgba(255,255,255,0.85);
+    }
+
+    .primary-banner {
+        height: 400px;
+    }
+
     .banner {
-        min-height: 400px;
+        //min-height: 400px;
+        padding-bottom: 30px;
+        padding-top: 30px;
 
         blockquote {
             margin: 0px auto;
-            background: rgba(255,255,255,0.85);
             font-size: 1.4em !important;
         }
     }
 
     .quote {
-        padding-bottom: 20px;
-        padding-top: 40px;
-        blockquote {
-            background: rgba(255,255,255,0.85);
-        }
     }
 
     $map-height: 400px;

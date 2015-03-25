@@ -2,10 +2,10 @@ Title: Homepage
 Date: 2015-02-27 10:42
 save_as: index.html
 
-<div class="banner bg-fall-2">
+<div class="primary-banner bg-fall-2">
+</div>
 <div class="quote">
   <blockquote><h2>When you can't see the forest for the trees</h2></blockquote>
-</div>
 </div>
 
 <div class="container" markdown="1">
@@ -18,7 +18,7 @@ My interpersonal style is based on creating an open, safe space for clients inne
 </section>
 </div>
 
-<div class="quote bg-fall-1">
+<div class="banner">
 <blockquote class="blockquote-reverse">Happiness is when what you think, what you say, and what you do are in harmony. <footer>Mohandas Gandhi</footer></blockquote>
 </div>
 
@@ -34,7 +34,7 @@ I hold a Master's degree in Community Counseling from the University of Northern
 </section>
 </div>
 
-<div class="quote bg-fall-2">
+<div class="banner bg-fall-1">
 <blockquote class="blockquote-reverse">The universe is change, our life is what our thoughts make it."<footer>Marcus Aurelius Antoninus</footer></blockquote>
 </div>
 
@@ -69,7 +69,7 @@ Hours: Monday through Thursday 11:00am - 6:00pm
 <div id="rate" class="container" markdown="1">
 <section markdown="1">
 
-## Rate
+## Rates & Insurance
 
 100.00 a session (50 minutes)
 
