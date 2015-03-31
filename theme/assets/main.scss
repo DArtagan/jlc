@@ -53,6 +53,10 @@ main {
         background: url('../images/fall_1.jpg');
         background-attachment: fixed;
         background-size: cover;
+
+        @media (max-width: $screen-xs-max) {
+            background-attachment: scroll;
+        }
     }
 
     .bg-fall-2 {
